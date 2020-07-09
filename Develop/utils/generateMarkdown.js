@@ -4,7 +4,7 @@ function generateMarkdown(data) {
   ## License
   This program is licensed under ${data.license}
   ## Dependencies
-  '''${data.dependecies}'''
+  '''${data.dependencies}'''
   ## Test
   '''${data.test}'''
   ## What you need to know

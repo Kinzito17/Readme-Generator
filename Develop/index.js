@@ -1,21 +1,9 @@
 const inquirer = require("inquirer");
 const fs = require('fs');
-const generateMarkdown = require('./utils/generateMarkdown')
+const generateMarkdown = require('./utils/generateMarkdown');
+const path = require('path');
 
-const questions = [
-    'What is yout GitHub username?',
-    'What is your email address?',
-    'What is the title of your project?', 
-    'Please provide a short description about your project.',
-    'What type of license would you like your project to have?',
-    'What command should be run to install dependencies?',
-    'What command should be run to run tests?',
-    'What does the user need to know about using this repo?',
-    'How can the user contribute to the repo?'
-];
-
-inquirer
-  .prompt([
+const questions =[
     {
         type: "input",
         message: "What is yout GitHub username?",
@@ -66,32 +54,22 @@ inquirer
         message: "How can the user contribute to the repo?",
         name: "contribution" 
 
-        
-    }]).then(function(data) {
-        console.log(data);
-       
-        fs.writeFile('README.md', data, (err) => {
-            if (err) {
-                throw err;
-            };
-        });
-      });
-    
-    ;
+    }];
 
-//     const data = new Uint8Array(Buffer.from('Hello Node.js'));
-// fs.writeFile('message.txt', data, (err) => {
-//   if (err) throw err;
-//   console.log('The file has been saved!');
-// });
 
 // function to write README file
 function writeFile(fileName, data) {
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
 
 // function to initialize program
 function init() {
+    inquirer.prompt(questions)
+    .then((data) => {
+        console.log(data);
+        writeFile('README.md', generateMarkdown({...data}));
+    })
 
 }
 
