@@ -1,7 +1,7 @@
  # README Generator 
-  The README generator prompts a user to answer questions about their project and then writes a README file with appropriate markdown so they can add the results to their project.
+  This cli program will prompt the user to answer a few quiestion and with the responses create a README.md file for their project.
   ## License
-  This program is licensed under MIT
+  This program is licensed under ISC
   ## Dependencies
   '''bash
   npm install
@@ -11,6 +11,6 @@
   run test
   '''
   ## What you need to know
-  Please double check all work.
+  They will need to know how to access the CLI and how to initiate the program.
   ## Contributing
-  If you'd like to contribute please send a message. Thank you!
+  Any contributions can be requested via email.
