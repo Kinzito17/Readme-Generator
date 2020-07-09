@@ -1,5 +1,5 @@
  # README Generator 
-  The README generator prompts a user to answer questions about their project and then writes a README file with appropriat
+  The README generator prompts a user to answer questions about their project and then writes a README file with appropriate markdown so they can add the results to their project.
   ## License
   This program is licensed under MIT
   ## Dependencies
