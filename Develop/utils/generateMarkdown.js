@@ -4,9 +4,13 @@ function generateMarkdown(data) {
   ## License
   This program is licensed under ${data.license}
   ## Dependencies
-  '''${data.dependencies}'''
+  '''bash
+  ${data.dependencies}
+  '''
   ## Test
-  '''${data.test}'''
+  '''bash
+  ${data.test}
+  '''
   ## What you need to know
   ${data.knowledge}
   ## Contributing

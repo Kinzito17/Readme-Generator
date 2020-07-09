@@ -1,11 +1,15 @@
  # README Generator 
-  The README generator prompts a user to answer questions about their project and then writes a README file with appropriate markdown so they can add the results to their project.
+  The README generator prompts a user to answer questions about their project and then writes a README file with appropriat
   ## License
   This program is licensed under MIT
   ## Dependencies
-  '''npm install'''
+  '''bash
+  npm install
+  '''
   ## Test
-  '''run test'''
+  '''bash
+  run test
+  '''
   ## What you need to know
   Please double check all work.
   ## Contributing
