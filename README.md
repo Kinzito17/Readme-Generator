@@ -6,3 +6,6 @@ The Readme generator is a nodejs command line program. When a user runs the prog
 
 Please find the readme.md file written from the program in the utils folder.
 
+## Demo
+
+![readme-demo](readme.png)
