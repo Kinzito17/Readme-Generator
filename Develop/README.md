@@ -1,5 +1,5 @@
- # hfjdkas ![License](https://img.shields.io/badge/license-MIT-green)
-  fdhsajkl
+ # README Generator ![License](https://img.shields.io/badge/license-MIT-green)
+  This program will create a README file from the user input
   ## Table of Contents
   * [Description](#Description)
   * [License](#License)
@@ -11,15 +11,15 @@
   This program is licensed under MIT
   ## Installation
   ```
-  fdhsajkl
+  install npm
   ```
   ## Testing
   ```
-  fdsa
+  run test
   ```
   ## What you need to know
-  fdsa
+  Have fun
   ## Contributing
-  fdsa
+  Please contact for all contributions.
   ## Questions
-  Github Username - ofdas
+  Github Username - kinzito17
