@@ -1,16 +1,16 @@
- # README Generator 
-  This cli program will prompt the user to answer a few quiestion and with the responses create a README.md file for their project.
+ # Readme ![License](https://img.shields.io/badge/license-MIT-green)
+  pow
   ## License
-  This program is licensed under ISC
+  This program is licensed under MIT
   ## Dependencies
   '''bash
-  npm install
+  and
   '''
   ## Test
   '''bash
-  run test
+  then
   '''
   ## What you need to know
-  They will need to know how to access the CLI and how to initiate the program.
+  here
   ## Contributing
-  Any contributions can be requested via email.
+  ping
