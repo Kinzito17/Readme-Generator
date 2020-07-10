@@ -1,16 +1,22 @@
-
-
 function generateMarkdown(data) {
   let backtick = '```';
+
   return ` # ${data.title} ${generateBadge(data.license)}
   ${data.description}
+  ## Table of Contents
+  * [Descrition](#Description)
+  * [License](#License)
+  * [Installation](#Installation)
+  * [Testing](#Testing)
+  * [Contributing](#Contributing)
+  * [Questions](#Questions)
   ## License
   This program is licensed under ${data.license}
-  ## Dependencies
+  ## Installation
   ${backtick}
   ${data.dependencies}
   ${backtick}
-  ## Test
+  ## Testing
   ${backtick}
   ${data.test}
   ${backtick}

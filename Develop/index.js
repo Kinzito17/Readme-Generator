@@ -31,7 +31,7 @@ const questions =[
         choices: [
             'MIT',
             'ISC',
-            'Apache license 2.0'
+            'Apache'
     ]   
     },
     {
